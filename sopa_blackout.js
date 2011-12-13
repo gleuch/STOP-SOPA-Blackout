@@ -99,11 +99,20 @@ function sopa_blackout_start($_) {
     });
   })($_);
 
+  if (typeof(stop_sopa) != 'object') var stop_sopa = {promote:'tab'}
+  if (typeof(stop_sopa.promote) == 'undefined') stop_sopa.promote = 'tab';
+  if (typeof(stop_sopa.color) == 'undefined') stop_sopa.color = '#000000';
+  $_.sopa_blackout('body', stop_sopa.color);
 
-  if (!sopa_blackout_color) var sopa_blackout_color = '#000000';
-  $_.sopa_blackout('body', sopa_blackout_color);
-
-  // add corner area!
+  if (!!!stop_sopa.promote) {
+    // lame ass motherfucker
+  } else if (stop_sopa.promote == 'overlay') {
+    var html = '<h1>OMGWTF</h1>';
+    if ($_('#sopa_blackout_overlay').size() <= 0) $_('body').first().append(html);
+  } else {
+    var html = '<h1>OMGWTF</h1>';
+    if ($_('#sopa_blackout_tab').size() <= 0) $_('body').first().append(html);
+  }
 
 
   /* Allow AJAX detection */
