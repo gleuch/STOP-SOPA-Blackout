@@ -139,7 +139,7 @@ function FATLAB_sopa_blackout_start($_) {
         ';
       }
 
-      if ($_('#sopa_blackout_promote').size() <= 0) $_('body').first().append(html);
+      if ($_('#sopa_blackout_promote').size() <= 0) $_('body').append(html);
 
       $_('#sopa_blackout_action, #sopa_blackout_skip').click(function() {
         if (localStorage.disable_sopa_blackout != '1') {
