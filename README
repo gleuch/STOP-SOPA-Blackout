@@ -1,0 +1,45 @@
+                                                                                     
+.d88888b  d888888P  .88888.   888888ba     .d88888b   .88888.   888888ba   .d888888  
+88.    "'    88    d8'   `8b  88    `8b    88.    "' d8'   `8b  88    `8b d8'    88  
+`Y88888b.    88    88     88 a88aaaa8P'    `Y88888b. 88     88 a88aaaa8P' 88aaaaa88a 
+      `8b    88    88     88  88                 `8b 88     88  88        88     88  
+d8'   .8P    88    Y8.   .8P  88           d8'   .8P Y8.   .8P  88        88     88  
+ Y88888P     dP     `8888P'   dP            Y88888P   `8888P'   dP        88     88  
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+                                                                                     
+   888888ba  dP         .d888888   a88888b. dP     dP  .88888.  dP     dP d888888P   
+   88    `8b 88        d8'    88  d8'   `88 88   .d8' d8'   `8b 88     88    88      
+  a88aaaa8P' 88        88aaaaa88a 88        88aaa8P'  88     88 88     88    88      
+   88   `8b. 88        88     88  88        88   `8b. 88     88 88     88    88      
+   88    .88 88        88     88  Y8.   .88 88     88 Y8.   .8P Y8.   .8P    88      
+   88888888P 88888888P 88     88   Y88888P' dP     dP  `8888P'  `Y88888P'    dP      
+ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+
+The SOPA ("Stop Online Piracy Act") is a terrible piece of legislation that gives 
+broad powers for the courts to take down sites by claims from "infringed" users. If 
+SOPA passes as-is, it could devastate the artistic expression and livelihood of many 
+artists, hackers, and entrepreneurs.
+
+Protest the SOPA bill and install the blackout code on your site to let your visitors 
+know what they could miss out if SOPA does pass.
+
+<script type="text/javascript">
+  var FATLAB_Stop_SOPA = {
+    color : '#000000',
+    promote : true
+  };
+
+  document.write('<scr'+'ipt src="http://fffff.at/stop_sopa/blackout.js?v=1"></scr'+'ipt>');
+</script>
+
+
+The color can also be changed to a hex code, an rgb(), or rgba() format. You can 
+also choose disable the promotion overlay by changing promote to false. 
+
+Post your site link in the comments on http://fffff.at/stop-sopa-blackout so we can 
+track and spread the word!
+
+
+Code by @gleuch (http://gleuch.com)
