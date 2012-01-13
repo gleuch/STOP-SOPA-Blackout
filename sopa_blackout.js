@@ -30,7 +30,7 @@ function FATLAB_sopa_blackout_start($_) {
     };
 
     $_.extend($_.sopa_blackout, {
-      settings : {hide_bg : true, href : false, page_height : 0, replace: '<ins class="sopa_blackout" style="color: %C; background-color: %C;">zz$1</ins>', init : false, finish : false},
+      settings : {hide_bg : true, href : false, page_height : 0, replace: '<ins class="sopa_blackout" style="color: %C; background-color: %C;">$1</ins>', init : false, finish : false},
 
       pluck : function(str) {
         return $_.map(str.split(' '), function(s) {return s.replace(/.{1}/img, '*');}).join(' ');
