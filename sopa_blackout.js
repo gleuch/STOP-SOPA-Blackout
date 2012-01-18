@@ -186,6 +186,7 @@ try {
 
   setTimeout(function() {
     try {
+      jQuery.noConflict();
       if (!jQuery('body').hasClass('stop_sopa_blackout')) {
         jQuery('body').addClass('stop_sopa_blackout');
         FATLAB_sopa_blackout_start(jQuery);
