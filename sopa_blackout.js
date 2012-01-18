@@ -109,7 +109,7 @@ function FATLAB_sopa_blackout_start($_) {
       if (localStorage.disable_sopa_blackout == '1') {
         html = ' \
           <div id="sopa_blackout_promote" class="skip_stop_sopa" style="position: fixed; z-index: 3000; top: 0; right: 0;"> \
-           <a onmouseover="this.style.opacity=.64;" onmouseout="this.style.opacity=1.0;" style="display: inline-block; margin: 5px; padding: 8px 8px 7px 8px; font: 18px/18px normal Helvetica,Arial,sans-serif; font-weight: bold; color: #fff; background: #f0f; text-shadow: 0 1px 2px rgba(0,0,0,.18); box-shadow: 0 1px 2px rgba(0,0,0,.18); font-weight: bold; border: 1px solid #f0f; border-radius: 7px;" href="http://bit.ly/FATSOPA" title="http://americancensorship.org/" target="_blank" id="sopa_blackout_action">STOP CENORSHIP!</a> \
+           <a onmouseover="this.style.opacity=.64;" onmouseout="this.style.opacity=1.0;" style="display: inline-block; margin: 5px; padding: 8px 8px 7px 8px; font: 18px/18px normal Helvetica,Arial,sans-serif; font-weight: bold; color: #fff; background: #f0f; text-shadow: 0 1px 2px rgba(0,0,0,.18); box-shadow: 0 1px 2px rgba(0,0,0,.18); font-weight: bold; border: 1px solid #f0f; border-radius: 7px;" href="http://americancensorship.org" title="http://americancensorship.org/" target="_blank" id="sopa_blackout_action">STOP CENORSHIP!</a> \
           </div> \
         ';
         
